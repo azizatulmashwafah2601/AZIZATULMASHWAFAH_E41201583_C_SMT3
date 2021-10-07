@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".DetailBookActivity">
+
+<!--    Menampilkan judul buku novel-->
+    <TextView
+        android:id="@+id/tvTitle"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:text="Judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+<!--    Menampilkan tahun terbit buku novel-->
+    <TextView
+        android:id="@+id/tvTahun"
+        android:layout_marginLeft="15dp"
+        android:text="2021"
+        android:layout_toRightOf="@id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+<!--    Menampilkan nama penulis buku novel-->
+    <TextView
+        android:id="@+id/tvPenulis"
+        android:text="Penulis"
+        android:layout_below="@id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+<!--    Menampilkan separator sebagai pemisah antara penulis dan genre buku-->
+    <TextView
+        android:id="@+id/separator"
+        android:text="|"
+        android:layout_below="@id/tvTitle"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_toRightOf="@id/tvPenulis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+<!--    Menampilkan genre buku novel-->
+    <TextView
+        android:id="@+id/tvGenre"
+        android:text="Genre : Romantis"
+        android:layout_below="@id/tvTitle"
+        android:layout_toRightOf="@id/separator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+<!--    Menampilkan nama penerbit buku novel-->
+    <TextView
+        android:id="@+id/tvPenerbit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Penerbit"
+        android:layout_below="@id/tvPenulis"/>
+
+<!--    Menampilkan deskripsi singkat dari buku novel-->
+    <TextView
+        android:id="@+id/tv_Deskripsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deskripsi Buku"
+        android:layout_below="@id/tvPenerbit"
+        android:layout_marginTop="5dp"
+        style="@style/TextAppearance.AppCompat.Body2"/>
+
+</RelativeLayout>

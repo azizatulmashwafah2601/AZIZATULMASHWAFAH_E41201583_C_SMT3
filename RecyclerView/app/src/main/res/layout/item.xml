@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<!--    Menampilkan judul buku novel-->
+    <TextView
+        android:id="@+id/tvTitle"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:text="Judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+<!--    Menampilkan tahun terbit buku novel-->
+    <TextView
+        android:id="@+id/tvTahun"
+        android:layout_marginLeft="15dp"
+        android:text="2021"
+        android:layout_toRightOf="@id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+<!--    Menampilkan nama penulis buku novel-->
+    <TextView
+        android:id="@+id/tvPenulis"
+        android:layout_marginBottom="15dp"
+        android:text="Penulis"
+        android:layout_below="@id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
