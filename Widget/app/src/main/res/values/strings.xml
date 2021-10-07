@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Widget</string>
+    <string name="person">Username</string>
+    <string name="location">City</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone Number</string>
+    <string name="gender">Gender</string>
+    <string name="lock">Password</string>
+    <string name="calender">Your Birthday</string>
+
+<!--    Membuat list item yang akan ditampilkan pada spinner-->
+    <string-array name="gender">
+        <item></item>
+        <item>Female</item>
+        <item>Male</item>
+    </string-array>
+</resources>
