@@ -1,0 +1,4 @@
+# Fragment Project
+
+NAMA = AZIZATUL MASHWAFAH
+NIM = E41201583
