@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00D1FF"
+    tools:context=".HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+<!--    Menambahkan logo-->
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo_buku"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"/>
+
+<!--    Menambahkan judul-->
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:fontFamily="@font/poppins_reguler"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_below="@id/logo"
+        android:layout_centerHorizontal="true"
+        android:text="E-BOOK"/>
+
+<!--    Menambahkan deskripsi aplikasi-->
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:fontFamily="@font/poppins_reguler"
+        android:textColor="@color/white"
+        android:layout_below="@id/text1"
+        android:layout_centerHorizontal="true"
+        android:text="E-BOOK adalah aplikasi buku digital yang berisi semua buku-buku dan bisa diakses melalui smartphone"
+        android:gravity="center_horizontal"/>
+
+</RelativeLayout>
