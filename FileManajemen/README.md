@@ -1,0 +1,6 @@
+# Project Manajemen File
+
+NAMA = AZIZATUL MASHWAFAH
+NIM = E41201583
+GOLONGAN = C
+
